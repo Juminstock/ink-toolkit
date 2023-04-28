@@ -13,3 +13,15 @@
   
   Con esto estarás listo o lista para seguir el tutorial.
 </p>
+<h3 align="center">
+  Instala Rust usando la guía de Substrate:
+</h3>
+<p>
+  Lo primero que debemos hacer es instalar <a href="https://www.rust-lang.org/es">Rust</a> con todas sus características como el cargo y rustc. Para ello nos apoyaremos en la guía que nos proporciona <a href="https://docs.substrate.io/install/linux/">Substrate</a>. 👈 Ingresa a este link y sigue el paso a paso.
+</p>
+<h3 align="center">
+  Instala el <code>cargo-contract</code>:
+</h3>
+<p>
+  Para dicha instalación seguiremos la guía que nos proporciona la documentación de <a href="https://docs.astar.network/docs/build/environment/ink_environment">star Network</a> ⚡. 👈 Ingresa a este link y sigue los pasos.
+</p>
