@@ -35,8 +35,9 @@
   Instala la Polkadot.js y crea una cuenta
 </h3>
 <p>
-  Finalmente, para interactuar con todo el ecosistema, hacer pruebas, obtener tokens y desplegar contratos inteligentes, deberás contar con una Wallet en la Polkadot.js. Para ello te recomiendo seguir este tutorial: <a>Crea tu billetera en la Polkadot.js</a>. 
+  Finalmente, para interactuar con todo el ecosistema, hacer pruebas, obtener tokens y desplegar contratos inteligentes, deberás contar con una Wallet en la Polkadot.js. Para ello te recomiendo seguir este tutorial: <a href="https://www.rspanther.com/wallets/polkadot-js/como-crear-wallet-polkadotjs/">Crea tu billetera en la Polkadot.js</a>. 
 </p>
+<h3 align="center">¡Felicitaciones!</h3>
 <p>
   ¡Felicidades! Con esto tendrás un entorno de desarrollo listo y preparado para llevar a cabo el <a href="https://twitter.com/dotlabs__/status/1651325286342963200?s=20">Workshop de Astar Network</a> por parte del equipo de <a href="https://dotlabs.academy/">dotlabs()</a>.
 </p>
