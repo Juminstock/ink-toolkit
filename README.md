@@ -4,24 +4,30 @@
   Aquí encontrarás las dependencias y herramientas que deberás tener instaladas para llevar a cabo con éxito el workshop de Astar Network.
 </p>
 <h3 align="center">
-  Pre-requisitos:
+  Pre-requisitos
 </h3>
 <p>
-  1. Deberás tener instalado un sistema operativo linux (de preferencia derivado de <a href="https://www.debian.org/index.es.html">debian</a> ya que los comandos acá presentados serán útiles para sus distribuciones), en caso de poseer Windows, con tener WSL (Windows Subsystem for Linux) podrás trabajar. <br>
+  1. Deberás tener instalado un sistema operativo linux, en caso de poseer Windows, con tener WSL (Windows Subsystem for Linux) podrás trabajar. <br>
   2. Deberás tener instalado <a href="https://visualstudio.microsoft.com/es/">Visual Studio Code</a>, ya que será el IDE con el cual estaremos trabajando. <br>
   3. Finalmente, instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analizer</a>. <br>
   
   Con esto estarás listo o lista para seguir el tutorial.
 </p>
 <h3 align="center">
-  Instala Rust usando la guía de Substrate:
+  Instala Rust usando la guía de Substrate
 </h3>
 <p>
   Lo primero que debemos hacer es instalar <a href="https://www.rust-lang.org/es">Rust</a> con todas sus características como el cargo y rustc. Para ello nos apoyaremos en la guía que nos proporciona <a href="https://docs.substrate.io/install/linux/">Substrate</a>. 👈 Ingresa a este link y sigue el paso a paso.
 </p>
 <h3 align="center">
-  Instala el <code>cargo-contract</code>:
+  Instala el <code>cargo-contract</code>
 </h3>
 <p>
-  Para dicha instalación seguiremos la guía que nos proporciona la documentación de <a href="https://docs.astar.network/docs/build/environment/ink_environment">star Network</a> ⚡. 👈 Ingresa a este link y sigue los pasos.
+  Para dicha instalación seguiremos la guía que nos proporciona la documentación de <a href="https://docs.astar.network/docs/build/environment/ink_environment">Astar Network</a> ⚡. 👈 Ingresa a este link y sigue los pasos.
+</p>
+<h3 align="center">
+  Reduce trabajo con el <code>Swanky-container</code>
+</h3>
+<p>
+  También podrás reducir todo este trabajo a una sola acción a través del <code>Swanky-container</code>, podrás leer y conocer más de esta alternativa de configuración manual a través de este <a href="https://github.com/AstarNetwork/swanky-dev-container">repositorio de GitHub</a>.
 </p>
