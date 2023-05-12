@@ -17,19 +17,19 @@
   Compilador compatible con C
 </h3>
 <p>
-  Lo primero que debemos hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE): <br>
+  Lo primero que debemos hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE). Ejecuta estos dos comandos: <br>
   <div align="center">
-  <code>sudo apt install build-essential</code> & <code>sudo apt install clang curl git make</code>.
+  <code>sudo apt install build-essential</code> & <code>sudo apt install clang curl git make</code>
   </div>
-  
-  
-  instalar <a href="https://www.rust-lang.org/es">Rust</a> con todas sus características como el cargo y rustc. Para ello nos apoyaremos en la guía que nos proporciona <a href="https://docs.substrate.io/install/linux/">Substrate</a>. 👈 Ingresa a este link y sigue el paso a paso.
 </p>
 <h3 align="center">
-  Instala el <code>cargo-contract</code>
+  Instalar un paquete de criptografía
 </h3>
 <p>
-  Para dicha instalación seguiremos la guía que nos proporciona la documentación de <a href="https://docs.astar.network/docs/build/environment/ink_environment">Astar Network</a> ⚡. 👈 Ingresa a este link y sigue los pasos.
+  Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debe tener un paquete que proporcione criptografía. Ejecute el siguiente comando: <br>
+  <div align="center">
+  <code>sudo apt install libssl-dev</code>
+  </div>
 </p>
 <h3 align="center">
   Reduce trabajo con el <code>Swanky-container</code>
