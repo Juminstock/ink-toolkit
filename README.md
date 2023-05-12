@@ -26,8 +26,8 @@
   Instalar un paquete de criptografía
 </h3>
 <p>
-  Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debe tener un paquete que proporcione criptografía. Ejecute el siguiente comando:
-  <div align="center"> <code>sudo apt install libssl-dev</code> </div>
+  Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debe tener un paquete que proporcione criptografía. Ejecuta el siguiente comando:
+  <div align="center"> <code>sudo apt install libssl-dev</code> </div> <br>
   Además, debemos instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
   <div align="center"> <code>sudo apt install pkg-config</code> </div>
 </p>
