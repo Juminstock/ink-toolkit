@@ -11,13 +11,13 @@
   2. Deberás tener instalado <a href="https://visualstudio.microsoft.com/es/">Visual Studio Code</a>, ya que será el IDE con el cual estaremos trabajando. <br>
   3. Finalmente, instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analizer</a>. <br>
   
-  Con esto estarás lista o listo para seguir el tutorial. <br>
-</p>
+  Con esto estarás lista o listo para seguir el tutorial.
+</p> <br>
 <h3 align="center">
   Compilador compatible con C
 </h3>
 <p>
-  Lo primero que debemos hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE): <br><br>
+  Lo primero que debemos hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE): <br>
   <div align="center">
   <code>sudo apt install build-essential</code> & <code>sudo apt install clang curl git make</code>.
   </div>
