@@ -11,7 +11,7 @@
   2. Deberás tener instalado <a href="https://visualstudio.microsoft.com/es/">Visual Studio Code</a>, ya que será el IDE con el cual estaremos trabajando. <br>
   3. Finalmente, instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analizer</a>. <br>
   
-  Con esto estarás listo o lista para seguir el tutorial.
+  Con esto estarás lista o listo para seguir el tutorial.
 </p>
 <h3 align="center">
   Instala Rust usando la guía de Substrate
