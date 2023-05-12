@@ -29,9 +29,18 @@
   Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debe tener un paquete que proporcione criptografía. Ejecuta el siguiente comando:
   <div align="center"> <code>sudo apt install libssl-dev</code> </div> <br>
   Además, debemos instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
-  <div align="center"> <code>sudo apt install pkg-config</code> </div>
+  <div align="center"> <code>sudo apt install pkg-config</code> </div> <br>
+  Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: 
+  <div align="center"> <code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code> </div>
 </p>
 
+<h3 align="center">
+  Instalar Rust 🦀
+</h3>
+
+<p>
+  
+</p>
 
 
 
