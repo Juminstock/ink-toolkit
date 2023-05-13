@@ -41,7 +41,7 @@
 <div align="center"> <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code> </div> <br>
 
 Este comando descargará las herramientas y las características del lenguaje necesarias para desarrollar con el. Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguno de los siguientes comandos: <br>
-<div> <code>source $HOME/.cargo/env</code> o <code>source ~/.cargo/env</code> </div> <br>
+<div align="center"> <code>source $HOME/.cargo/env</code> o <code>source ~/.cargo/env</code> </div> <br>
 
 Verifica que se haya instalado de forma correcta: <br>
 <div align="center"> <code>cargo --version</code> o <code>rustc --version</code> </div> <br>
@@ -49,8 +49,20 @@ Verifica que se haya instalado de forma correcta: <br>
 <i>Si ya tenías instalado Rust, lo más recomendable es que cada cierto tiempo lo actualices a la versión más reciente. Ejecuta estos comandos en tu terminal para actualizarlo: </i> <br>
 <div align="center"> <code>rustup default stable</code> & <code>rustup update</code> </div>
 </p>
-
-
+<h3 align="center">
+  Instalar herramientas de Web Assembly
+</h3>
+<p>
+  Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos 4 comandos: <br>
+  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup component add rust-src --toolchain nightly</code> <code>rustup update nightly</code> <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div>
+  Verifica que haya quedado instalado de forma correcta con estos comandos: <br>
+  <div> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
+  Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br>
+  <div> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div> <br>
+</p>
+<h3 align="center">
+  Dependencias para el uso de las APIs
+</h3>
 
 
 
