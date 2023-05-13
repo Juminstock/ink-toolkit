@@ -63,8 +63,17 @@ Verifica que se haya instalado de forma correcta: <br>
 <h3 align="center">
   Dependencias para el uso de las APIs
 </h3>
-
-
+<p>
+  Se deben instalar otras dos dependencias para vincular a Ink!, por ejemplo, para advertir a los usuarios sobre el uso de las API de una manera que podría generar problemas de seguridad. Ejecuta este comando: <br>
+  <div align="center"> <code>cargo install cargo-dylint dylint-link</code> </div>
+</p>
+<h3 align="center">
+  ¡Instalemos <code>cargo-contract</code>!
+</h3>
+<p>
+  cargo contract es la herramienta de CLI para crear, actualizar, compilar nuestros contratos, con muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: <br>
+  <div align="center"> <code>cargo install cargo-contract --force --locked</code> </div>
+</p>
 
 
 
