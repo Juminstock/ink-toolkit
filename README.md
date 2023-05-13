@@ -17,7 +17,7 @@
   Compilador compatible con C
 </h3>
 <p>
-  Lo primero que debemos hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE). Ejecuta estos dos comandos: <br>
+  Lo primero que debes hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE). Ejecuta estos dos comandos: <br>
   <div align="center">
   <code>sudo apt install build-essential</code> & <code>sudo apt install clang curl git make</code>
   </div>
@@ -28,7 +28,7 @@
 <p>
   Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debe tener un paquete que proporcione criptografía. Ejecuta el siguiente comando:
   <div align="center"> <code>sudo apt install libssl-dev</code> </div> <br>
-  Además, debemos instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
+  Además, debes instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
   <div align="center"> <code>sudo apt install pkg-config</code> </div> <br>
   Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: <br><br>
   <div align="center"> <code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code> </div>
@@ -54,11 +54,11 @@ Verifica que se haya instalado de forma correcta: <br>
 </h3>
 <p>
   Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos 4 comandos: <br>
-  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup component add rust-src --toolchain nightly</code> <code>rustup update nightly</code> <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div>
+  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup component add rust-src --toolchain nightly</code> & <code>rustup update nightly</code> & <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div>
   Verifica que haya quedado instalado de forma correcta con estos comandos: <br>
-  <div> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
+  <div align="center"> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br>
-  <div> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div> <br>
+  <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div> <br>
 </p>
 <h3 align="center">
   Dependencias para el uso de las APIs
