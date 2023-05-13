@@ -58,7 +58,7 @@ Verifica que se haya instalado de forma correcta: <br>
   Verifica que haya quedado instalado de forma correcta con estos comandos: <br><br>
   <div align="center"> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
-  <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div> <br>
+  <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div>
 </p>
 <h3 align="center">
   Dependencias para el uso de las APIs
