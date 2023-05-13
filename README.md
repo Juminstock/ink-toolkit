@@ -30,7 +30,7 @@
   <div align="center"> <code>sudo apt install libssl-dev</code> </div> <br>
   Además, debemos instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
   <div align="center"> <code>sudo apt install pkg-config</code> </div> <br>
-  Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: 
+  Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: <br>
   <div align="center"> <code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code> </div>
 </p>
 <h3 align="center">
@@ -38,9 +38,9 @@
 </h3>
 <p>
   ¡Ahora sí, a instalar Rust 🦀! Ejecuta el siguiente comando en tu terminal: <br>
-<div align="center"> <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code> </div>. Este comando descargará las herramientas y las características del lenguaje necesarias para desarrollar con el. <br>
+<div align="center"> <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code> </div> <br>
 
-Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguna de los siguientes comandos: <br>
+Este comando descargará las herramientas y las características del lenguaje necesarias para desarrollar con el. Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguno de los siguientes comandos: <br>
 <div> <code>source $HOME/.cargo/env</code> o <code>source ~/.cargo/env</code> </div> <br>
 
 Verifica que se haya instalado de forma correcta: <br>
