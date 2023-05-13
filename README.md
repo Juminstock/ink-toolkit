@@ -30,7 +30,7 @@
   <div align="center"> <code>sudo apt install libssl-dev</code> </div> <br>
   Además, debemos instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: 
   <div align="center"> <code>sudo apt install pkg-config</code> </div> <br>
-  Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: <br>
+  Existe un comando que te descargará todo lo necesario antes de poder instalar Rust: <br><br>
   <div align="center"> <code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code> </div>
 </p>
 <h3 align="center">
