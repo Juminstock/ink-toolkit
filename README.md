@@ -71,24 +71,11 @@ Verifica que se haya instalado de forma correcta: <br>
   ¡Instalemos <code>cargo-contract</code>!
 </h3>
 <p>
-  cargo contract es la herramienta de CLI para crear, actualizar, compilar nuestros contratos, con muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: <br>
-  <div align="center"> <code>cargo install cargo-contract --force --locked</code> </div>
+  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, compilar nuestros contratos, con muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: <br>
+  <div align="center"> <code>cargo install cargo-contract --force --locked</code> </div> <br>
+  Verifica que se haya instalado con éxito haciendo uso del siguiente comando: <br>
+  <div align="center"> <code>cargo contract --version</code> </div>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h3 align="center">
   Reduce trabajo con el <code>Swanky-container</code>
 </h3>
