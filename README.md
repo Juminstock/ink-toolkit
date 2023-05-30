@@ -54,7 +54,7 @@ Verifica que se haya instalado de forma correcta: <br>
 </h3>
 <p>
   Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos 4 comandos: <br>
-  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup component add rust-src --toolchain nightly</code> & <code>rustup update nightly</code> & <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div> <br>
+  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup component add rust-src --toolchain nightly</code> & & <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div> <br>
   Verifica que haya quedado instalado de forma correcta con estos comandos: <br><br>
   <div align="center"> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
