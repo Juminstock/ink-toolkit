@@ -88,7 +88,7 @@ Verifica que se haya instalado de forma correcta: <br>
 <p>
   Finalmente, para interactuar con todo el ecosistema, hacer pruebas, obtener tokens y desplegar contratos inteligentes, deberás contar con una Wallet en la Polkadot.js. Para ello te recomiendo seguir este tutorial: <a href="https://www.rspanther.com/wallets/polkadot-js/como-crear-wallet-polkadotjs/">Crea tu billetera en la Polkadot.js</a>.
   
-  También podrás usar la <a>Astar Portal</a>
+  También podrás usar la <a href="https://portal.astar.network/shibuya-testnet/assets">Astar Portal</a>.
 </p>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
