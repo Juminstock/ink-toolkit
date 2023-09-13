@@ -77,10 +77,10 @@ Este comando descargará las herramientas y las características necesarias del 
 <p>
   Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos cuatro comandos: </p>
   <ul>
-    <li>rustup update nightly</li>
-    <li>rustup component add rust-src</li>
-    <li>rustup component add rust-src --toolchain nightly</li>
-    <li>rustup target add wasm32-unknown-unknown --toolchain nightly</li>
+    <li><code>rustup update nightly</code></li>
+    <li><code>rustup component add rust-src</code></li>
+    <li><code>rustup component add rust-src --toolchain nightly</code></li>
+    <li><code>rustup target add wasm32-unknown-unknown --toolchain nightly</code></li>
   </ul>
   <p>
     Verifica que haya quedado instalado de forma correcta con estos comandos: </p>
@@ -89,7 +89,7 @@ Este comando descargará las herramientas y las características necesarias del 
       <li><code>rustup +nightly show</code></li>
     </ul>
     <p>El output en tu terminal debería verse así:</p> <br>
-    <img src="![Captura desde 2023-09-13 13-56-34](https://github.com/Juminstock/ink_toolkit/assets/105810861/89de6bf6-a6b8-4320-8a65-08a6181648f4)"/>
+    <img src="https://github.com/Juminstock/ink_toolkit/blob/main/Captura%20desde%202023-09-13%2013-56-34.png?raw=true"/>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
   <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div>
 </p>
