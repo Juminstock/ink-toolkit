@@ -8,8 +8,7 @@
 </h3>
 <p>
   1. Deberás tener instalado un sistema operativo linux, Unix o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
-  2. Deberás tener instalado <a href="https://visualstudio.microsoft.com/es/">Visual Studio Code</a>, ya que será el IDE con el cual estaremos trabajando. <br>
-  3. Finalmente, instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analizer</a>. <br>
+  2. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analizer</a>. <br>
   
   Con esto estarás lista o listo para seguir el tutorial.
 </p> <br>
