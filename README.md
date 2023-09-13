@@ -21,9 +21,10 @@
 </h3>
 <p>
   Lo primero que debes hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a> como <code>clang</code> que es un entorno de desarrollo integrado (IDE). Ejecuta estos dos comandos en tu terminal: <br>
-  <div align="left">
-  <code>sudo apt install build-essential</code> & <code>sudo apt install clang curl git make</code>
-  </div>
+  <ol>
+    <li><code>sudo apt install build-essential</code></li>
+    <li><code>sudo apt install clang curl git make</code></li>
+  </ol>
 </p>
 <h3 align="center">
   Instalar un paquete de criptografía
