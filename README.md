@@ -10,7 +10,8 @@
   1. Deberás tener instalado un sistema operativo linux, Unix o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
   2. Editor de código instalado, te recomiendo <a href="https://code.visualstudio.com/">Visual Studio Code</a>. <br>
   3. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analyzer</a>. <br>
-  4. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=ink-analyzer.ink-analyzer#review-details">Ink-analyzer</a>.
+  4. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=ink-analyzer.ink-analyzer#review-details">Ink-analyzer</a>. <br>
+  5. Instala la extensión de <a href="https://polkadot.js.org/extension/">Polkadot.js</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
 </p> <br>
