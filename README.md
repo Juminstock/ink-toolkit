@@ -1,7 +1,7 @@
 <h1 align="center">Workshop de ink! - toolkit</h1>
 <img src="https://media0.giphy.com/media/hvXcXEyDpdV1uZJ0nJ/200w.webp?cid=ecf05e470gqc03fx9wa4nt2zjp9lvodxtmmq3oe1a0jx211w&ep=v1_gifs_search&rid=200w.webp&ct=g" align="right" width="300">
 <p>
-  Aquí encontrarás las herramientas y características que deberás tener instaladas para llevar a cabo con éxito el workshop #2 de ink! y Astar Network.
+  Aquí encontrarás las herramientas y características que deberás tener instaladas para llevar a cabo con éxito el workshop #2 de ink! y Astar Network en Medellín, Universidad EAFIT.
 </p>
 <h3 align="center">
   Pre-requisitos
