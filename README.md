@@ -89,8 +89,7 @@ Este comando descargará las herramientas y las características necesarias del 
       <li><code>rustup +nightly show</code></li>
     </ul>
     <p>El output en tu terminal debería verse así:</p> <br>
-    <img src="![Captura desde 2023-09-13 13-56-34](https://github.com/Juminstock/ink_toolkit/assets/105810861/89de6bf6-a6b8-4320-8a65-08a6181648f4)"
-/>
+    <img src="![Captura desde 2023-09-13 13-56-34](https://github.com/Juminstock/ink_toolkit/assets/105810861/89de6bf6-a6b8-4320-8a65-08a6181648f4)"/>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
   <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div>
 </p>
