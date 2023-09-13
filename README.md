@@ -110,7 +110,7 @@ Este comando descargará las herramientas y las características necesarias del 
   ¡Instalemos <code>cargo-contract</code>!
 </h3>
 <p>
-  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: </p>
+  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más, por cierto. Ejecuta el siguiente comando en tu terminal: </p>
   <ul>
     <li><code>cargo install cargo-contract --force --locked</code></li>
   </ul>
@@ -129,5 +129,5 @@ Este comando descargará las herramientas y las características necesarias del 
 <hr>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
-  ¡Felicidades! Con esto tendrás un entorno de desarrollo listo y preparado para llevar a cabo el <a href="https://twitter.com/dotlabs__/status/1651325286342963200?s=20">Workshop de Astar Network</a> por parte del equipo de <a href="https://dotlabs.academy/">dotlabs()</a>.
+  ¡Felicidades! Con esto tendrás un entorno de desarrollo listo y preparado para llevar a cabo el <a href="https://x.com/Juminstock/status/1701978206876631139?s=20">segundo Workshop de ink! y Astar Network</a>.
 </p>
