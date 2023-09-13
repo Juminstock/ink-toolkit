@@ -14,7 +14,7 @@
   5. Instala la extensión de <a href="https://polkadot.js.org/extension/">Polkadot.js</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
-</p> <br>
+</p>
 <hr>
 <h3 align="center">
   Compilador compatible con C
