@@ -40,7 +40,7 @@
     <li><code>sudo apt install pkg-config</code></li>
   </ul>
  <p>
-  Ejecuta este comando para descargar algunas herramientas esenciales antes de instalar Rust 🦀: </p>
+  Por último, ejecuta este comando para descargar algunas herramientas esenciales antes de instalar Rust 🦀: </p>
   <ul>
     <li><code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code></li>
   </ul>
@@ -75,10 +75,22 @@ Este comando descargará las herramientas y las características necesarias del 
   Instalar herramientas de Web Assembly
 </h3>
 <p>
-  Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos 4 comandos: <br>
-  <div align="center"> <code>rustup component add rust-src</code> & <code>rustup update nightly</code> & <code>rustup component add rust-src --toolchain nightly</code> & <code>rustup target add wasm32-unknown-unknown --toolchain nightly</code> </div> <br>
-  Verifica que haya quedado instalado de forma correcta con estos comandos: <br><br>
-  <div align="center"> <code>rustup show</code> & <code>rustup +nightly show</code> </div> <br>
+  Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos cuatro comandos: </p>
+  <ul>
+    <li>rustup update nightly</li>
+    <li>rustup component add rust-src</li>
+    <li>rustup component add rust-src --toolchain nightly</li>
+    <li>rustup target add wasm32-unknown-unknown --toolchain nightly</li>
+  </ul>
+  <p>
+    Verifica que haya quedado instalado de forma correcta con estos comandos: </p>
+    <ul>
+      <li><code>rustup show</code></li>
+      <li><code>rustup +nightly show</code></li>
+    </ul>
+    <p>El output en tu terminal debería verse así:</p> <br>
+    <img src="![Captura desde 2023-09-13 13-56-34](https://github.com/Juminstock/ink_toolkit/assets/105810861/89de6bf6-a6b8-4320-8a65-08a6181648f4)"
+/>
   Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
   <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div>
 </p>
