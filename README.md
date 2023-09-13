@@ -14,6 +14,7 @@
   
   Con esto estarás lista o listo para seguir el tutorial.
 </p> <br>
+<divider></divider>
 <h3 align="center">
   Compilador compatible con C
 </h3>
