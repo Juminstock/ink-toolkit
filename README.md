@@ -25,7 +25,7 @@
     <li><code>sudo apt install build-essential</code></li>
     <li><code>sudo apt install clang curl git make</code></li>
   </ul>
-  
+  <hr>
 <h3 align="center">
   Instalar un paquete de criptografía
 </h3>
@@ -44,23 +44,33 @@
   <ul>
     <li><code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code></li>
   </ul>
-
+<hr>
 <h3 align="center">
   Instalar Rust 🦀
 </h3>
 <p>
-  ¡Ahora sí, a instalar Rust 🦀! Ejecuta el siguiente comando en tu terminal: <br>
-<div align="center"> <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code> </div> <br>
+  ¡Ahora sí, a instalar Rust 🦀! Ejecuta el siguiente comando en tu terminal: </p>
+  <ul>
+    <li><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
+  </ul>
+<p>
+Este comando descargará las herramientas y las características necesarias del lenguaje para desarrollar con el. Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguno de los siguientes comandos: </p>
+<ul>
+  <li><code>source $HOME/.cargo/env</code></li>
+  <li><code>source ~/.cargo/env</code></li>
+</ul>
+<p>Verifica que se haya instalado de forma correcta:</p>
+<ul>
+  <li><code>cargo --version</code></li>
+  <li><code>rustc --version</code></li>
+</ul>
 
-Este comando descargará las herramientas y las características del lenguaje necesarias para desarrollar con el. Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguno de los siguientes comandos: <br>
-<div align="center"> <code>source $HOME/.cargo/env</code> o <code>source ~/.cargo/env</code> </div> <br>
-
-Verifica que se haya instalado de forma correcta: <br>
-<div align="center"> <code>cargo --version</code> o <code>rustc --version</code> </div> <br>
-
-<i>Si ya tenías instalado Rust, lo más recomendable es que cada cierto tiempo lo actualices a la versión más reciente. Ejecuta estos comandos en tu terminal para actualizarlo: </i> <br>
-<div align="center"> <code>rustup default stable</code> & <code>rustup update</code> </div>
-</p>
+<p>Si ya tenías instalado Rust, lo más recomendable es que cada cierto tiempo lo actualices a la versión más reciente. Ejecuta estos comandos en tu terminal para actualizarlo: </p>
+<ul>
+  <li><code>rustup default stable</code></li>
+  <li><code>rustup update</code></li>
+</ul>
+<hr>
 <h3 align="center">
   Instalar herramientas de Web Assembly
 </h3>
