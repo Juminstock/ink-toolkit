@@ -16,7 +16,7 @@
   Con esto estarás lista o listo para seguir el tutorial.
 </p>
 <hr>
-<h3 align="center">
+<h3>
   Compilador compatible con C
 </h3>
 <p>
