@@ -88,41 +88,45 @@ Este comando descargará las herramientas y las características necesarias del 
       <li><code>rustup show</code></li>
       <li><code>rustup +nightly show</code></li>
     </ul>
-    <p>El output en tu terminal debería verse así:</p> <br>
+    <p>El output en tu terminal debería verse así:</p>
     <img src="https://github.com/Juminstock/ink_toolkit/blob/main/Captura%20desde%202023-09-13%2013-56-34.png?raw=true"/>
-  Es posible que debas instalar el  paquete binaryen, que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos: <br><br>
-  <div align="center"> <code>sudo apt update</code> & <code>sudo apt -y install binaryen</code> </div>
-</p>
+    <p>
+  Es posible que debas instalar el  paquete <code>binaryen</code> que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos en tu terminal: </p>
+  <ul>
+    <li><code>sudo apt update</code></li>
+    <li><code>sudo apt -y install binaryen</code> </li>
+  </ul>
+<hr>
 <h3 align="center">
   Dependencias para el uso de las APIs
 </h3>
 <p>
-  Se deben instalar otras dos dependencias para vincular a Ink!, por ejemplo, para advertir a los usuarios sobre el uso de las API de una manera que podría generar problemas de seguridad. Ejecuta este comando: <br>
-  <div align="center"> <code>cargo install cargo-dylint dylint-link</code> </div>
-</p>
+  Se deben instalar otras dos dependencias para vincular a Ink!, por ejemplo, para advertir a los usuarios sobre el uso de las API de una manera que podría generar problemas de seguridad. Ejecuta este comando: </p>
+  <ul>
+    <li><code>cargo install cargo-dylint dylint-link</code></li>
+  </ul>
+<hr>
 <h3 align="center">
   ¡Instalemos <code>cargo-contract</code>!
 </h3>
 <p>
-  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, compilar nuestros contratos y que trae muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: <br>
-  <div align="center"> <code>cargo install cargo-contract --force --locked</code> </div> <br>
-  Verifica que se haya instalado con éxito haciendo uso del siguiente comando: <br><br>
-  <div align="center"> <code>cargo contract --version</code> </div>
-</p>
+  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más por cierto. Ejecuta el siguiente comando en tu terminal: </p>
+  <ul>
+    <li><code>cargo install cargo-contract --force --locked</code></li>
+  </ul>
+  <p>
+  Verifica que se haya instalado con éxito haciendo uso del siguiente comando: </p>
+  <ul>
+    <li><code>cargo contract --version</code></li>
+  </ul>
+<hr>
 <h3 align="center">
-  Reduce trabajo con el <code>Swanky-container</code>
+  Adicional: Reduce trabajo con el <code>Swanky-container</code>
 </h3>
 <p>
   También podrás reducir todo este trabajo a una sola acción a través del <code>Swanky-container</code>, podrás leer y conocer más de esta alternativa a la configuración manual a través de este <a href="https://github.com/AstarNetwork/swanky-dev-container">repositorio de GitHub</a>.
 </p>
-<h3 align="center">
-  Instala la Polkadot.js y crea una cuenta
-</h3>
-<p>
-  Finalmente, para interactuar con todo el ecosistema, hacer pruebas, obtener tokens y desplegar contratos inteligentes, deberás contar con una Wallet en la Polkadot.js. Para ello te recomiendo seguir este tutorial: <a href="https://www.rspanther.com/wallets/polkadot-js/como-crear-wallet-polkadotjs/">Crea tu billetera en la Polkadot.js</a>.
-  
-  También podrás usar la <a href="https://portal.astar.network/shibuya-testnet/assets">Astar Portal</a>.
-</p>
+<hr>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
   ¡Felicidades! Con esto tendrás un entorno de desarrollo listo y preparado para llevar a cabo el <a href="https://twitter.com/dotlabs__/status/1651325286342963200?s=20">Workshop de Astar Network</a> por parte del equipo de <a href="https://dotlabs.academy/">dotlabs()</a>.
