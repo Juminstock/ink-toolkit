@@ -121,6 +121,12 @@ Este comando descargará las herramientas y las características necesarias del 
   </ul>
 <hr>
 <h3 align="center">
+  Instalemos las famosas herramientas de Swanky suite 😎!
+</h3>
+<p>
+  <a href="https://github.com/swankyhub">Swanky suite</a> es un conjunto de herramientas muy especiales para el desarrollo de contratos inteligentes en un entorno local. Es similar a <a href="https://hardhat.org/">HardHat</a> del ecosistema EVM. A swanky lo podemos instalar de forma local de diferentes maneras, acá te comparto un recurso que te explicará 5 formas de instalar Swanky: <a href="https://docs.astar.network/docs/build/wasm/swanky-suite/"><code>Instalar swanky</code></a>.
+</p>
+<h3 align="center">
   Adicional: Reduce trabajo con el <code>Swanky-container</code>
 </h3>
 <p>
