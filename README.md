@@ -11,7 +11,7 @@
   2. Editor de código instalado, te recomiendo <a href="https://code.visualstudio.com/">Visual Studio Code</a>. <br>
   3. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analyzer</a>. <br>
   4. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=ink-analyzer.ink-analyzer#review-details">Ink-analyzer</a>. <br>
-  5. Instala la extensión de <a href="https://polkadot.js.org/extension/">Polkadot.js</a> en tu navegador.
+  5. (Opcional) Instala la extensión de <a href="https://polkadot.js.org/extension/">Polkadot.js</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
 </p>
@@ -135,5 +135,5 @@ Este comando descargará las herramientas y las características necesarias del 
 <hr>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
-  ¡Felicidades! Con esto tendrás un entorno de desarrollo listo y preparado para llevar a cabo el <a href="https://x.com/Juminstock/status/1701978206876631139?s=20">segundo Workshop de ink! y Astar Network</a>.
+  ¡Felicidades! Con esto tendrás tu entorno de desarrollo local listo para trabajar con ink!🦑 y crear aplicaciones robustas con Swanky.
 </p>
