@@ -7,10 +7,10 @@
   Pre-requisitos
 </h3>
 <p>
-  1. Deberás tener instalado un sistema operativo linux o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
+  1. Deberás tener instalado un sistema operativo <a href="https://www.stackscale.com/es/blog/distribuciones-linux-populares/">linux</a> o en caso de poseer Windows, con tener <a href="https://learn.microsoft.com/es-es/windows/wsl/install">WSL</a> podrás trabajar. <br>
   2. Deberás contar con experiencia manejando la terminal. <br>
   3. Tendrás que tener los permisos de súper usuario. <br>
-  4. Tener experiencia usando manejadores de paquetes, como apt. <br>
+  4. Tener experiencia usando manejadores de paquetes, como <a href="https://www.debian.org/doc/manuals/aptitude/pr01s03.es.html">apt</a>. <br>
   5. (Opcional) Instala la extensión de <a href="https://www.subwallet.app/">SubWallet</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
