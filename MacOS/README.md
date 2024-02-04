@@ -17,47 +17,49 @@
 </p>
 <hr>
 <h3 align="center">
-  Compilador compatible con C
+  Compilador GCC
 </h3>
 <p>
-  Lo primero que debes hacer es incluir un enlazador o un compilador compatible con <a href="https://www.google.com/search?q=c+programming+language&oq=c+programming+language&aqs=chrome.0.0i355i512i543j46i340i512j0i512l5j69i60.8316j0j7&sourceid=chrome&ie=UTF-8">C</a>, como <code>clang</code>, que es un entorno de desarrollo integrado (IDE). Ejecuta estos dos comandos en tu terminal: </p>
+  Lo primero que debes hacer es instalar el compilador portable <a href="https://osxdaily.com/2023/05/02/how-install-gcc-mac/">GCC</a> que se ejecuta en la mayoría de las plataformas disponibles. Ejecuta este comando en tu terminal: </p>
   <ul>
-    <li><code>sudo apt install build-essential</code></li>
-    <li><code>sudo apt install clang curl git make</code></li>
+    <li><code>brew install gcc</code></li>
+  </ul>
+  <hr>
+  <h3 align="center">
+  Herramienta protobuf
+</h3>
+<p>
+  <a href="https://protobuf.dev/">Protobuf</a> es un formato de serialización de datos que se utiliza para estructurar datos de manera eficiente e intercambiar información entre diferentes lenguajes de programación. Ejecuta este comando en tu terminal: </p>
+  <ul>
+    <li><code>brew install protobuf</code></li>
   </ul>
   <hr>
 <h3 align="center">
-  Instalar un paquete de criptografía
+  Paquete criptográfico
 </h3>
 <p>
-  Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de             transacciones, también debes tener un paquete que proporcione criptografía. Ejecuta el siguiente comando: </p>
+  Debido a que la cadena de bloques requiere criptografía estándar para admitir la generación de pares de claves pública/privada y la validación de firmas de transacciones, también debes tener un paquete que proporcione criptografía. Ejecuta éstos comandos: </p>
 <ul>
-  <li><code>sudo apt install libssl-dev</code></li> 
+  <li><code>brew install openssl</code></li> 
 </ul>
-<p>
-  Además, debes instalar un paquete con todas las características necesarias para trabajar con <code>libssl-dev</code>. Ejecuta este comando: </p>
-  <ul>
-    <li><code>sudo apt install pkg-config</code></li>
-  </ul>
  <p>
-  Por último, ejecuta este comando para descargar algunas herramientas esenciales antes de instalar Rust 🦀: </p>
+  Por último, ejecuta este comando para verificar y/o descargar algunas herramientas esenciales antes de instalar Rust 🦀: </p>
   <ul>
-    <li><code>sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler</code></li>
+    <li><code> brew install --only-dependencies git curl gcc protobuf openssl</code></li>
   </ul>
 <hr>
 <h3 align="center">
-  Instalar Rust 🦀
+  Instalación de Rust 🦀
 </h3>
 <p>
-  ¡Ahora sí, a instalar Rust 🦀! Ejecuta el siguiente comando en tu terminal: </p>
+  ¡Ahora sí, a instalar Rust! 🦀 Ejecuta el siguiente comando en tu terminal: </p>
   <ul>
     <li><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
   </ul>
 <p>
-Este comando descargará las herramientas y las características necesarias del lenguaje para desarrollar con el. Luego necesitarás incluir a <code>cargo</code> a tu shell, ejecuta alguno de los siguientes comandos: </p>
+Este comando descargará un script con el instalador de rust, <a href="https://rustup.rs/">Rustup</a>, quién se encargará de alojarlo en tu máquina local y mantener las versiones. Ejecuta el siguiente comando: </p>
 <ul>
-  <li><code>source $HOME/.cargo/env</code></li>
-  <li><code>source ~/.cargo/env</code></li>
+  <li><code>source "$HOME/.cargo/env"</code></li>
 </ul>
 <p>Verifica que se haya instalado de forma correcta:</p>
 <ul>
@@ -65,7 +67,7 @@ Este comando descargará las herramientas y las características necesarias del 
   <li><code>rustc --version</code></li>
 </ul>
 
-<p>Si ya tenías instalado Rust, lo más recomendable es que cada cierto tiempo lo actualices a la versión más reciente. Ejecuta estos comandos en tu terminal para actualizarlo: </p>
+<p>Si ya tenías instalado Rust, lo más recomendable es que cada cierto tiempo (min 3 meses) lo actualices a la versión más reciente. Ejecuta estos comandos en tu terminal para actualizarlo: </p>
 <ul>
   <li><code>rustup default stable</code></li>
   <li><code>rustup update</code></li>
@@ -75,26 +77,26 @@ Este comando descargará las herramientas y las características necesarias del 
   Instalar herramientas de Web Assembly
 </h3>
 <p>
-  Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos cuatro comandos: </p>
+  Necesitas instalar unas herramientas específicas para trabajar con Web Assembly. Ejecuta estos cinco comandos: </p>
   <ul>
     <li><code>rustup update nightly</code></li>
     <li><code>rustup component add rust-src</code></li>
+    <li><code>rustup target add wasm32-unknown-unknown</code></li>
     <li><code>rustup component add rust-src --toolchain nightly</code></li>
     <li><code>rustup target add wasm32-unknown-unknown --toolchain nightly</code></li>
   </ul>
   <p>
-    Verifica que haya quedado instalado de forma correcta con estos comandos: </p>
+    Verifica que hayan quedado instalados de forma correcta con estos comandos: </p>
     <ul>
       <li><code>rustup show</code></li>
       <li><code>rustup +nightly show</code></li>
     </ul>
     <p>El output en tu terminal debería verse así:</p>
-    <img src="/Linux/commands.png"/>
+    <img src="/MacOS/commands.png"/>
     <p>
-  Es posible que debas instalar el  paquete <code>binaryen</code> que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos en tu terminal: </p>
+  Es posible que debas instalar el  paquete <code>binaryen</code> que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta este comando en tu terminal: </p>
   <ul>
-    <li><code>sudo apt update</code></li>
-    <li><code>sudo apt -y install binaryen</code> </li>
+    <li><code>brew install binaryen</code> </li>
   </ul>
 <hr>
 <h3 align="center">
