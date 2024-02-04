@@ -1,17 +1,17 @@
-<h1 align="center">Ink! toolkit</h1>
-<img src="https://media0.giphy.com/media/hvXcXEyDpdV1uZJ0nJ/200w.webp?cid=ecf05e470gqc03fx9wa4nt2zjp9lvodxtmmq3oe1a0jx211w&ep=v1_gifs_search&rid=200w.webp&ct=g" align="right" width="300">
+<h1 align="center">Ink! toolkit for linux</h1>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXh0aXUzNHJkcmttdGV4YmhkMWFrbHUxMWhxcGxnbThmNmFlemo0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0ICG4WxdKSRzE3K/giphy.gif" align="right" width="300">
 <p>
-  Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky.
+  Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky en Linux.
 </p>
 <h3 align="center">
-  Pre-requisitos
+  Pre-requisitos:
 </h3>
 <p>
   1. Deberás tener instalado un sistema operativo linux, Mac o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
   2. Editor de código instalado, te recomiendo <a href="https://code.visualstudio.com/">Visual Studio Code</a>. <br>
   3. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analyzer</a>. <br>
   4. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=ink-analyzer.ink-analyzer#review-details">Ink-analyzer</a>. <br>
-  5. (Opcional) Instala la extensión de <a href="https://polkadot.js.org/extension/">Polkadot.js</a> en tu navegador.
+  5. (Opcional) Instala la extensión de <a href="https://www.subwallet.app/">SubWallet</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
 </p>
@@ -89,7 +89,7 @@ Este comando descargará las herramientas y las características necesarias del 
       <li><code>rustup +nightly show</code></li>
     </ul>
     <p>El output en tu terminal debería verse así:</p>
-    <img src="https://github.com/Juminstock/ink_toolkit/blob/main/Captura%20desde%202023-09-13%2013-56-34.png?raw=true"/>
+    <img src="/Linux/commands.png"/>
     <p>
   Es posible que debas instalar el  paquete <code>binaryen</code> que se utiliza para optimizar el código de bytes de un contrato de Web Assembly. Ejecuta estos comandos en tu terminal: </p>
   <ul>
