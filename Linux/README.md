@@ -7,10 +7,10 @@
   Pre-requisitos
 </h3>
 <p>
-  1. Deberás tener instalado un sistema operativo linux, Mac o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
-  2. Editor de código instalado, te recomiendo <a href="https://code.visualstudio.com/">Visual Studio Code</a>. <br>
-  3. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer">Rust-Analyzer</a>. <br>
-  4. Instala en tu Visual Studio Code, la extensión de <a href="https://marketplace.visualstudio.com/items?itemName=ink-analyzer.ink-analyzer#review-details">Ink-analyzer</a>. <br>
+  1. Deberás tener instalado un sistema operativo linux o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
+  2. Deberás contar con experiencia manejando la terminal.
+  3. Tendrás que tener los permisos de súper usuario.
+  4. Tener experiencia usando manejadores de paquetes, como apt.
   5. (Opcional) Instala la extensión de <a href="https://www.subwallet.app/">SubWallet</a> en tu navegador.
   
   Con esto estarás lista o listo para seguir el tutorial.
