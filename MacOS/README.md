@@ -1,15 +1,15 @@
 <h1 align="center">Ink! toolkit for MacOS 🍏</h1>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTc5NjVwdjJhNjdkNXE0MzZpaXdmemRrbDByMGI1NTlxdXg4aTl1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bfrlODgSLqXxS/giphy.gif" align="right" width="210">
 <p>
-  Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky en MacOS.
+  Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky en MacOS 🍏.
 </p>
 <h3 align="center">
   Pre-requisitos
 </h3>
 <p>
-  1. Deberás tener instalado un sistema operativo MacOS.<br>
+  1. Deberás tener instalado un sistema operativo MacOS 🍏.<br>
   2. Instala un manejador de paquetes, te recomiendo <a href="https://brew.sh/">Homebrew</a>.<br>
-  3. Instala en tu máquina las herramientas de<a href="https://mac.install.guide/commandlinetools/3">Xcode</a>.<br>
+  3. Instala en tu máquina las herramientas de <a href="https://mac.install.guide/commandlinetools/3">Xcode</a>.<br>
   4. Contar con experiencia usando la terminal, para instalar paquetes.<br>
   5. (Opcional) Instala la extensión de <a href="https://www.subwallet.app/">SubWallet</a> en tu navegador.
   
