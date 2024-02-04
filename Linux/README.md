@@ -49,7 +49,7 @@
   Instalar Rust 🦀
 </h3>
 <p>
-  ¡Ahora sí, a instalar Rust 🦀! Ejecuta el siguiente comando en tu terminal: </p>
+  ¡Ahora sí, a instalar Rust! 🦀 Ejecuta el siguiente comando en tu terminal: </p>
   <ul>
     <li><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></li>
   </ul>
