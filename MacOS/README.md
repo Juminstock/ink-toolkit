@@ -10,7 +10,7 @@
   1. Deberás tener instalado un sistema operativo MacOS.<br>
   2. Instala un manejador de paquetes, te recomiendo <a href="https://brew.sh/">Homebrew</a>.<br>
   3. Instala en tu máquina <a href="https://mac.install.guide/commandlinetools/3">Xcode</a>.<br>
-  4. <br>
+  4. Contar con experiencia usando la terminal, para instalar paquetes.<br>
   5. (Opcional) Instala la extensión de <a href="https://www.subwallet.app/">SubWallet</a> en tu navegador.
   
   ¡Con esto estarás lista o listo para seguir el tutorial!
