@@ -1,10 +1,10 @@
-<h1 align="center">Ink! toolkit for linux</h1>
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXh0aXUzNHJkcmttdGV4YmhkMWFrbHUxMWhxcGxnbThmNmFlemo0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0ICG4WxdKSRzE3K/giphy.gif" align="right" width="300">
+<h1 align="center">Ink! toolkit for linux 🐧</h1>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXh0aXUzNHJkcmttdGV4YmhkMWFrbHUxMWhxcGxnbThmNmFlemo0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0ICG4WxdKSRzE3K/giphy.gif" align="right" width="600">
 <p>
   Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky en Linux.
 </p>
 <h3 align="center">
-  Pre-requisitos:
+  Pre-requisitos
 </h3>
 <p>
   1. Deberás tener instalado un sistema operativo linux, Mac o en caso de poseer Windows, con tener WSL podrás trabajar. <br>
