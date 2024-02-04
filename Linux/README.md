@@ -1,5 +1,5 @@
 <h1 align="center">Ink! toolkit for linux 🐧</h1>
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXh0aXUzNHJkcmttdGV4YmhkMWFrbHUxMWhxcGxnbThmNmFlemo0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0ICG4WxdKSRzE3K/giphy.gif" align="right" width="490">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXh0aXUzNHJkcmttdGV4YmhkMWFrbHUxMWhxcGxnbThmNmFlemo0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0ICG4WxdKSRzE3K/giphy.gif" align="right" width="500">
 <p>
   Repositorio donde encontrarás los módulos y dependencias necesarias que deberás tener instaladas en tu máquina local para trabajar con el Rust🦀 eDSL llamado ink!🦑 y Swanky en Linux.
 </p>
