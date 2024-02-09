@@ -123,7 +123,7 @@ Este comando descargará un script con el instalador de rust, <a href="https://r
 <p>
   <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más, por cierto. Ejecuta el siguiente comando en tu terminal para instalarlo: </p>
   <ul>
-    <li><code>cargo install cargo-contract --force --version 2.0.0</code></li>
+    <li><code>cargo install cargo-contract --force --locked</code></li>
   </ul>
   <p>
   Verifica que se haya instalado con éxito haciendo uso del siguiente comando: </p>
