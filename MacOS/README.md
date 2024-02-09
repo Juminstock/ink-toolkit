@@ -100,6 +100,15 @@ Este comando descargará un script con el instalador de rust, <a href="https://r
   </ul>
 <hr>
 <h3 align="center">
+  Herramienta CMake
+</h3>
+<p>
+  CMake es una herramienta de código abierto que se utiliza para automatizar el proceso de construcción de software. Esto facilita la construcción y la gestión de proyectos en múltiples plataformas. Ejecuta este comando: </p>
+  <ul>
+    <li><code>brew install cmake</code></li>
+  </ul>
+<hr>
+<h3 align="center">
   Dependencias para el uso de las APIs
 </h3>
 <p>
@@ -112,9 +121,9 @@ Este comando descargará un script con el instalador de rust, <a href="https://r
   ¡Instalemos <code>cargo-contract</code>!
 </h3>
 <p>
-  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más, por cierto. Ejecuta el siguiente comando en tu terminal: </p>
+  <code>cargo contract</code> es la herramienta de CLI para crear, actualizar, interactuar y compilar nuestros contratos y que trae muchas opciones más, por cierto. Ejecuta el siguiente comando en tu terminal para instalarlo: </p>
   <ul>
-    <li><code>cargo install cargo-contract --force --locked</code></li>
+    <li><code>cargo install cargo-contract --force --version 2.0.0</code></li>
   </ul>
   <p>
   Verifica que se haya instalado con éxito haciendo uso del siguiente comando: </p>
@@ -134,6 +143,7 @@ Este comando descargará un script con el instalador de rust, <a href="https://r
 <p>
   También podrás reducir todo este trabajo a una sola acción a través del <code>Swanky-container</code>, podrás leer y conocer más de esta alternativa a la configuración manual a través de este <a href="https://github.com/AstarNetwork/swanky-dev-container">repositorio de GitHub</a>.
 </p>
+<p>Te invito a que visites el repositorio de <a href="https://github.com/inkdevhub">InkDevHub</a> donde encontrarás plantillas y otras herramientas que podrás usar para desarrollar con <a href="https://use.ink/">ink!</a> 🦑.</p>
 <hr>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
