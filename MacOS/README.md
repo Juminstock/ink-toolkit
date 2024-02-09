@@ -143,7 +143,7 @@ Este comando descargará un script con el instalador de rust, <a href="https://r
 <p>
   También podrás reducir todo este trabajo a una sola acción a través del <code>Swanky-container</code>, podrás leer y conocer más de esta alternativa a la configuración manual a través de este <a href="https://github.com/AstarNetwork/swanky-dev-container">repositorio de GitHub</a>.
 </p>
-<p>Te invito a que visites el repositorio de <a href="https://github.com/inkdevhub">InkDevHub</a> donde encontrarás plantillas y otras herramientas que podrás usar para desarrollar con ink! 🦑.</p>
+<p>Te invito a que visites el repositorio de <a href="https://github.com/inkdevhub">InkDevHub</a> donde encontrarás plantillas y otras herramientas que podrás usar para desarrollar con <a href="https://use.ink/">ink!</a> 🦑.</p>
 <hr>
 <h3 align="center">¡Felicitaciones!</h3>
 <p>
